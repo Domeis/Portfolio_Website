@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Whani Kim</title>
+</head>
+
+<body>
+    <section id=home>
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+        <h1 class=name>Whani Kim</h1>
+        <p class=name-description>Trained in Cognitive Psychology. <br> Interested in User Experience Research <br> and
+            Human-Robot Interaction</p>
+        <img class="landing_pic" src="images/undraw_product_iteration_kjok.svg" alt="research">
+        <div class="skills">
+            <p>Skills</p>
+            <img src="images/html.svg.png"></img>
+            <img src="images/css3.svg"></img>
+            <img src="images/Javascript.png"></img>
+            <img src="images/Figma-logo.svg"></img>
+            <img src="images/724px-R_logo.svg.png"></img>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id=about>
+        <h1 class="about_me">About Me</h1>
+        <p class="my_description">I'm an aspiring User Experience Researcher. <br> My ideas and interests in User
+            Experience come from personal experiences with technologies. <br> My background in Psychology helped
+            me develop skills needed to conduct well-thought out research using a wide variety of methodologies.
+            <br>
+            <a class="my_description" href="CV(Sep2020).pdf" target="_blank">Click here for C.V. >> </a>
+        </p>
+        <img class="profile" src="images/profile.jpeg" alt="Dom">
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section id=projects>
+        <div class="projectContainer">
+            <div class="projectCard"> <img src="images/HRI.jpeg" alt="HRI">
+                <div class="text">Human-Robot Interaction</div>
+            </div>
+            <div class="projectCard"> <img src="images/newspaper.jpeg" alt="newspaper">
+                <div class="text"> Newspaper </div>
+            </div>
+            <div class="projectCard"> <img src="images/health.jpeg" alt="">
+                <div class="text"> Health </div>
+            </div>
+            <div class="projectCard"> <img src="images/woods.jpeg" alt="">
+                <div class="text"> Tourism </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Contact SECTION -->
+    <section id=contact>
+        <h1>Get in touch!</h1>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="usermail" placeholder="Email">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+
+            </form>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+        integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+        crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
